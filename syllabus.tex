@@ -1,0 +1,101 @@
+% LaTeX version of the departmental syllabus required for Spring 2013, 
+% sent by Dr. Tam on Jan 1, 2013
+
+%%%%%%%%%%%%%
+% VARIABLES %
+%%%%%%%%%%%%%
+
+% To customize the syllabus, edit the variables.tex file included
+
+\input{./variables.tex}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+% Document Settings %
+%%%%%%%%%%%%%%%%%%%%%
+
+% You shouldn't need to change these.
+
+\documentclass[10pt]{article}
+\setlength{\topmargin}{-0.5in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textheight}{8.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{\baselineskip}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks,urlcolor=blue}
+
+
+
+\begin{document}
+
+\begin{center}
+{\bf \large \CourseCode | \CourseName | \Semester}
+\end{center}
+
+\begin{center}
+\begin{tabular}{cc}
+	{\bf Instructor Information:} & {\bf Course Information:} \\
+	
+	\begin{tabular}{|ll|}\hline
+	Name:			& \InstName \\\hline
+	Office: 			& \OffLoc \\\hline
+	Office Hours:	& \OffHours \\\hline
+	Office Phone:	& \OffPhone \\\hline
+	Email:			& \Email \\\hline
+	\end{tabular}
+&
+	
+	\begin{tabular}{|ll|}\hline
+	Room:			& \ClassLoc \\\hline
+	Lecture Times:	& \ClassTimeOne \\
+					& \ClassTimeTwo \\\hline
+	Final Exam		& \FinalExamOne \\
+	Date/Time:		& \FinalExamTwo \\\hline
+	Credit Hours:	& \CreditHrs \\\hline
+	Text:			& \Text \\\hline
+	\end{tabular}
+
+\end{tabular}
+\end{center}
+
+{\bf Course Description:}\\
+\CourseDesc \\
+(Per \url{http://www.auburn.edu/student_info/bulletin/courses.pdf})
+
+{\bf Grading:}\\
+\GradeDesc
+
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Grade Distribution} & \textbf{Assignment of Letter Grades} \\
+\GradeDist
+&
+\LetterAssign
+\end{tabular}
+\end{center}
+
+{\bf Makeup Policy:} \\
+\MakeUp
+
+{\bf Americans with Disabilities Act (ADA):}\\
+If a student has a disability under ADA and requires accommodations, he/she should contact the Office of Accessibility for information on appropriate policies and procedures.  Students needing accommodations should try to meet with their instructor as soon as possible since accommodations cannot be granted retroactively.  For any questions or an appointment contact the Office of Accessibility in Haley 1228 or call (334) 844-2099.
+
+\newpage
+
+{\bf Academic Honesty:} \\
+\AcaHon
+
+{\bf Contingency Plan:} \\
+\ContPlan
+
+\center{Please refer to the Student Policy eHandbook \\\url{http://www.auburn.edu/student_info/student_policies/}\\ for more information - for example, what to do if you have three or more finals scheduled on one day.}
+
+\center{\small{Last updated on \today}}
+
+\end{document}
+
