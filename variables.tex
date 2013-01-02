@@ -7,82 +7,87 @@
 % Here's all the mandatory information you must provide (per Dr. Tam's policy):
 
 % Title stuff
-\newcommand{\CourseCode}{ % Course Code, ex: MATH 1000-080
+  % Course Code, ex: MATH 1000-080
+\newcommand{\CourseCode}{ 
 MATH 2630-101/102
 }
-
-\newcommand{\CourseName}{ % Course Name
+  % Course Name
+\newcommand{\CourseName}{
 Calculus III
 }
-
-\newcommand{\Semester}{ % Semester
+  % Semester
+\newcommand{\Semester}{
 Spring 2013
 }
 
 % Instructor data
-\newcommand{\InstName}{ % Your name
+  % Your name
+\newcommand{\InstName}{
 Dr. T. Y. Tam
 }
-
-\newcommand{\OffLoc}{ % Your office number
+  % Your office number
+\newcommand{\OffLoc}{
 Parker 224
 }
-
-\newcommand{\OffHours}{ % Your office hours
+  % Your office hours
+\newcommand{\OffHours}{
 MWF 0900-1050
 }
-
-\newcommand{\OffPhone}{ % Your office phone number
+  % Your office phone number
+\newcommand{\OffPhone}{
 (334) 867-5309
 }
-
-\newcommand{\Email}{ % Your email address
+  % Your email address
+\newcommand{\Email}{
 tamtiny@auburn.edu
 }
 
 % Course data
-\newcommand{\ClassLoc}{ % Classroom location
+  % Classroom location
+\newcommand{\ClassLoc}{
 Parker 249
 }
-
-\newcommand{\ClassTimeOne}{ % Lecture times (line 1)
+  % Lecture times (line 1)
+\newcommand{\ClassTimeOne}{
 MWF 1000-1050
 }
-
-\newcommand{\ClassTimeTwo}{ % Lecture times (line 2)
+  % Lecture times (line 2)
+\newcommand{\ClassTimeTwo}{
 R 0930-1020
 }
-
-\newcommand{\FinalExamOne}{ % Final exam time (line 1)
+  % Final exam time (line 1)
+\newcommand{\FinalExamOne}{
 Mon 4/29 0800 (MATH 2630-101)
 }
-
-\newcommand{\FinalExamTwo}{ % Final exam time (line 2)
+  % Final exam time (line 2)
+\newcommand{\FinalExamTwo}{
 Tue 4/30 1200 (MATH 2630-102)
 }
-
-\newcommand{\CreditHrs}{ % Number of credit hours
+  % Number of credit hours
+\newcommand{\CreditHrs}{
 4
 }
-
-\newcommand{\Text}{ % Textbook to be used
+  % Textbook to be used
+\newcommand{\Text}{
 University Calculus (Hass)
 }
 
 % Course Description
-% You should copy/paste this from the appropriate course description found on http://www.auburn.edu/student_info/bulletin/courses.pdf
+  % You should copy/paste this from the appropriate course description found on 
+  % http://www.auburn.edu/student_info/bulletin/courses.pdf
 \newcommand{\CourseDesc}{
 Pr., MATH 1620 or MATH 1627 or MATH 1720 Multivariate calculus: vector-valued functions, partial derivatives, multiple integration, vector calculus. Credit will be given for only one of MATH 2630, MATH 2637, or MATH 2730.
 }
 
 % Grade Description
-% Written explanation of grading schema. Current policy (2013-01-01) lets instructors set own grading schema with approval by course coordinator
+  % Written explanation of grading schema. Current policy (2013-01-01) lets instructors 
+  % set own grading schema with approval by course coordinator
 \newcommand{\GradeDesc}{
 There will be four tests worth 100 points each. Homework will be due weekly. The homework average will count 100 points total. There will be a cumulative final worth 300 points or three test grades. The lowest test grade will be replaced by the final.
 }
 
 % Grade Distribution
-% Table partitioning credit for each assignment
+  % Table partitioning credit for each assignment
 \newcommand{\GradeDist}{
 \begin{tabular}{|l|l|}\hline
 Test 1 & 100 \\
@@ -96,7 +101,7 @@ Total & 800\\\hline
 }
 
 % Letter Grade Assignment
-% Table partitioning assignment of letter grades by percentage and points
+  % Table partitioning assignment of letter grades by percentage and points
 \newcommand{\LetterAssign}{
 \begin{tabular}{|c|c|c|}\hline
 \bf{Grade} & \bf{Points} & \bf{Percentage}\\\hline\hline
@@ -109,17 +114,22 @@ F & 0-479 & 0\% - 59\%\\\hline
 }
 
 % Makeup Policy
-% University policy requires that one week is given for a student to give notice of an excused absence for an exam, so altering this is not recommended.
+  % University policy requires that one week is given for a student to give notice of an 
+  % excused absence for an exam, so altering this is not recommended.
 \newcommand{\MakeUp}{
 A test can only be made-up if there is a university excuse presented within one week of the regularly scheduled exam. Refer to \\
 \centerline{\url{https://sites.auburn.edu/admin/universitypolicies/Policies/PolicyonClassAttendance.pdf}}\\ 
 for the list of acceptable excuses.  It is the student's responsibility to make arrangements for any work and/or notes missed due to an absence.
 }
 
-% An ADA blurb is included between these two on the syllabus but is not editable here since it shouldn't need to be changed.
+% ADA Policy
+  % Don't change this without good reason.
+\newcommand{\ADA}{
+If a student has a disability under ADA and requires accommodations, he/she should contact the Office of Accessibility for information on appropriate policies and procedures.  Students needing accommodations should try to meet with their instructor as soon as possible since accommodations cannot be granted retroactively.  For any questions or an appointment contact the Office of Accessibility in Haley 1228 or call (334) 844-2099.
+}
 
 % Academic Honesty
-% Similarly, this should not be changed.
+  % Similarly, this probably shouldn't be changed.
 \newcommand{\AcaHon}{
 All portions of the Auburn University student academic honesty code (Title XII) \\
 \centerline{\url{https://sites.auburn.edu/admin/universitypolicies/Policies/AcademicHonestyCode.pdf}} \\
@@ -127,7 +137,34 @@ will apply to this class. All academic honesty violations or alleged violations 
 }
 
 % Contingency Plan
-% The default setting allows you to change this syllabus as needed (for example, giving one less exam due to time constraints), but you should present the changed policy in writing to your class.
+  % The default setting allows you to change this syllabus as needed 
+  % (for example, giving one less exam due to time constraints), 
+  % but you should present the changed policy in writing to your class.
 \newcommand{\ContPlan}{
 If normal class and/or lab activities are disrupted due to illness, emergency, or crisis situation, the syllabus and other course plans and assignments may be modified to allow completion of the course. If this occurs, an addendum to your syllabus and/or course assignments will replace the original materials.
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+% Optional Sections %
+%%%%%%%%%%%%%%%%%%%%%
+
+% Extra Sections
+  % You can optionally add as many extra sections as you wish by editing the \ExtraSections variable. 
+  % Set the variable as empty to remove these sections.
+\newcommand{\ExtraSections}{
+\textbf{Calculators:} \\
+A basic scientific calculator will be allowed on all tests and homework.  A cell phone app cannot be used 
+as a calculator.  Graphing calculators are not permitted.
+
+\textbf{Canvas:}\\
+Much of the content for this course, as well as all grades, will be posted online to the Canvas learning managment system. Access Canvas by visiting \\
+\centerline{\url{http://auburn.instructure.com/}}
+}
+
+% PostScript
+  % You can optionally add a final comment at the end of the syllabus to drive home an important point.
+  % Set \PostScript as empty to remove this final comment
+\newcommand{\PostScript}{
+\textbf{ELECTRONIC DEVICES ARE NOT ALLOWED IN CLASS UNLESS GIVEN EXPLICIT PERMISSION BY THE INSTRUCTOR.}
 }
