@@ -1,0 +1,6 @@
+# Ignore everything except README and .tex files
+*
+!README
+!*.tex
+!*.pdf
+!.gitignore
