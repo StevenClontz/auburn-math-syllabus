@@ -6,7 +6,9 @@ This is a LaTeX template for the Auburn University math department syllabus temp
 
 If you're not familiar with Git - no worries. You can easily download the bundle of files from the cloud by clicking the "ZIP" button. [Or you can just click this sentence.](https://github.com/StevenClontz/auburn-math-syllabus/archive/master.zip) Load up the variables.tex file in your favorite LaTeX editor, make the necessary changes, and then compile syllabus.tex to update the syllabus.pdf file.
 
-Or if you want to get fancy, you can use your own GitHub account to "Fork" this repository. You can then use Git to clone the repo locally to your computer, make your changes, and maintain your syllabus here.
+Or if you want to get fancy, you can use your own GitHub account to "Fork" this repository. You can then use Git to clone the repo locally to your computer, make your changes, and maintain your syllabus with some helpful version control and online backup. 
+
+(Seriously, even if you're not a coder, I suggest you take a look into Git for maintaining your syllabus/article/book... it's a very convenient way to maintain TeX documents, particularly if you want to share your work with others, and *especially* if you want to collaborate with others. Find me around Parker Hall and I'll be happy to show you the ropes.)
 
 ## How to Contribute
 
