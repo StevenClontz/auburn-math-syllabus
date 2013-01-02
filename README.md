@@ -23,3 +23,9 @@ Alternately, just shoot me an email at <steven.clontz@gmail.com> with suggested 
 ### Who are you?...
 
 I'm Steven Clontz. I'm a PhD candidate in mathematics at Auburn Unviersity. You could probably guess that since this project is for math GTAs at Auburn. Ah well. Here's my blog if you care: <http://www.stevenclontz.com>
+
+### Who owns this? Who can use it?
+
+This is a derivative work of a Word document written by Dr. T. Y. Tam, department head of Mathematics at Auburn University, adapted for use only by Auburn math instructors.
+
+Others who might want to adapt this for their own syllabi may do so, but must rewrite all suggested text and remove any association from the Auburn mathematics department. Thanks in advance.
