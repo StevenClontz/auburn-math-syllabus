@@ -2,6 +2,8 @@
 
 This is a LaTeX template for the Auburn University math department syllabus template. The goal is to provide TeX-savvy instuctors a way to make a few small changes and easily generate a PDF syllabus fitting departmental policy.
 
+[Here's what the finished product looks like.](https://github.com/StevenClontz/auburn-math-syllabus/blob/master/syllabus.pdf?raw=true)
+
 ## How to Use
 
 If you're not familiar with Git - no worries. You can easily download the bundle of files from the cloud by clicking the "ZIP" button. [Or you can just click this sentence.](https://github.com/StevenClontz/auburn-math-syllabus/archive/master.zip) Load up the variables.tex file in your favorite LaTeX editor, make the necessary changes, and then compile syllabus.tex to update the syllabus.pdf file.
