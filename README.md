@@ -26,7 +26,7 @@ Alternately, just shoot me an email at <steven.clontz@gmail.com> with suggested 
 
 ### Who are you?...
 
-I'm Steven Clontz. I'm a PhD candidate in mathematics at Auburn Unviersity. You could probably guess that since this project is for math GTAs at Auburn. Ah well. Here's my blog if you care: <http://www.stevenclontz.com>
+I'm Steven Clontz. I'm a PhD candidate in mathematics at Auburn Unviersity. You could probably guess that, y'know, since this project is for math GTAs at Auburn. Ah well. I also fancy myself a competent coder, instructor, puzzler, musician, entrenprenuer, etc. etc. Here's my blog if you care: <http://www.stevenclontz.com>
 
 ### Who owns this? Who can use it?
 
