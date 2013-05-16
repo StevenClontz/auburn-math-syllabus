@@ -10,6 +10,17 @@ This is a LaTeX template for the Auburn University math department syllabus temp
 
 Download the ZIP of files, and open up `syllabus.tex` in your favorite TeX editor. Change all the variables to fit your course, and then compile to PDF.
 
+#### Comfortable with Git?
+
+I've set `.gitignore` to ignore a semesters folder, so here's my workflow:
+
+* Clone the repo as your `master` branch
+* `git checkout semester-specific-branch-name` to make a new branch for the semester
+* Update `syllabus.tex` to fit your course. 
+* If you have any additional documents you want to track on the branch, put them in a folder like `semesters/2013-2`
+    * To track that subfolder, make sure to delete `semesters` from `.gitignore`. 
+    * You can `\input{../../syllabus_dochead.tex}` to have a shared header file.
+
 ## How to Contribute
 
 If you are comfortable with GitHub you are free to submit a Pull Request, or I'd probably be happy to give you edit privileges to the repo directly.
