@@ -1,6 +1,7 @@
-# Ignore everything except README and .tex, .pdf files
-*
-!README.md
-!*.tex
-!*.pdf
-!.gitignore
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+semesters
