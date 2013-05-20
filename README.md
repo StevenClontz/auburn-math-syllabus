@@ -21,6 +21,8 @@ I've set `.gitignore` to ignore a semesters folder, so here's my workflow:
     * To track that subfolder, make sure to delete `semesters` from `.gitignore`. 
     * You can `\input{../../syllabus_dochead.tex}` to have a shared header file.
 
+I have an example of how I've used this repo on the `clontz-2013-2` branch [here on Github](https://github.com/StevenClontz/auburn-math-syllabus/tree/clontz-2013-2).
+
 ## How to Contribute
 
 If you are comfortable with GitHub you are free to submit a Pull Request, or I'd probably be happy to give you edit privileges to the repo directly.
