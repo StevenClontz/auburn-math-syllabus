@@ -1,18 +1,20 @@
-% LaTeX version of the departmental syllabus required for Spring 2013 and later, 
+% LaTeX version of the departmental syllabus required for Spring 2013 and later,
 % sent by Dr. Tam on Jan 1, 2013
 
-% Change the following variables and compile the document to create a PDF syllabus.
+% Change the following variables and compile the document to create a PDF
+% syllabus.
 % Make sure syllabus_input.tex is in the same folder.
 
 %%%%%%%%%%%%%%%%%%
 % Mandatory Data %
 %%%%%%%%%%%%%%%%%%
 
-% Here's all the mandatory information you must provide (per departmental policy):
+% Here's all the mandatory information you must provide
+% (per departmental policy):
 
 % Title stuff
   % Course Code, ex: MATH 1000-080
-\newcommand{\CourseCode}{ 
+\newcommand{\CourseCode}{
 MATH 2630-101/102
 }
   % Course Name
@@ -77,17 +79,25 @@ University Calculus (Hass)
 }
 
 % Course Description
-  % You should copy/paste this from the appropriate course description found on 
-  % http://bulletin.auburn.edu/coursesofinstruction/math/
+  % Automatically includes this text after your \CourseDesc message:
+  %%%
+  % (See also: http://bulletin.auburn.edu/coursesofinstruction/math/)
 \newcommand{\CourseDesc}{
-Pr., MATH 1620 or MATH 1627 or MATH 1720 Multivariate calculus: vector-valued functions, partial derivatives, multiple integration, vector calculus. Credit will be given for only one of MATH 2630, MATH 2637, or MATH 2730.
+Pr., MATH 1620 or MATH 1627 or MATH 1720 Multivariate calculus: vector-valued
+functions, partial derivatives, multiple integration, vector calculus.
+Credit will be given for only one of MATH 2630, MATH 2637, or MATH 2730.
 }
 
 % Grade Description
-  % Written explanation of grading schema. Current policy (2013-01-01) lets instructors 
-  % set own grading schema with approval by course coordinator
+  % Written explanation of grading schema.
+  % This is an EXAMPLE only. Current policy (2013-01-01) lets
+  % instructors set own grading schema with approval by course coordinator.
+  % Contact your course coordinator with any questions.
 \newcommand{\GradeDesc}{
-There will be four tests worth 100 points each. Homework will be due weekly. The homework average will count 100 points total. There will be a cumulative final worth 300 points or three test grades. The lowest test grade will be replaced by the final.
+There will be four tests worth 100 points each. Homework will be due weekly.
+The homework average will count 100 points total. There will be a cumulative
+final worth 300 points or three test grades. The lowest test grade will be
+replaced by the final.
 }
 
 % Grade Distribution
@@ -118,34 +128,50 @@ F & 0-479 & 0\% - 59\%\\\hline
 }
 
 % Makeup Policy
-  % University policy requires that one week is given for a student to give notice of an 
-  % excused absence for an exam, so altering this is not recommended.
+  % The default message is based on University policy.
+  %
+  % Automatically includes this text after your \MakeUp message:
+  %%%
+  % Details on Auburn University’s make up policy,
+  % including a list of types of absences that are excused, may be found at
+  % https://sites.auburn.edu/admin/universitypolicies/Policies/PolicyonClassAttendance.pdf
+
 \newcommand{\MakeUp}{
-A test can only be made-up if there is a university excuse presented within one week of the regularly scheduled exam. Refer to \\
-\centerline{\url{https://sites.auburn.edu/admin/universitypolicies/Policies/PolicyonClassAttendance.pdf}}\\ 
-for the list of acceptable excuses.  It is the student's responsibility to make arrangements for any work and/or notes missed due to an absence.
+Arrangements to make up missed major exams due to excused absences must be
+initiated by the student within one week from the end of the excused absence.
 }
 
 % ADA Policy
   % Don't change this without good reason.
 \newcommand{\ADA}{
-Students who need accommodations are asked to electronically submit their approved accommodations through AU Access and to arrange a meeting during office hours the first week of classes, or as soon as possible if accommodations are needed immediately. If you have a conflict with my office hours, an alternate time can be arranged. To set up this meeting, please contact me by e-mail. If you have not established accommodations through the Office of Accessibility, but need accommodations, make an appointment with the Office of Accessibility, 1228 Haley Center, 844-2096 (V/TT).
+Students who need accommodations are asked to electronically submit their
+approved accommodations through AU Access and to arrange a meeting during
+office hours the first week of classes, or as soon as possible if accommodations
+are needed immediately. If you have not established accommodations through the
+Office of Accessibility, but need accommodations, make an appointment with the
+Office of Accessibility, 1228 Haley Center, 844-2096.
 }
 
 % Academic Honesty
   % Similarly, this probably shouldn't be changed.
 \newcommand{\AcaHon}{
-All portions of the Auburn University student academic honesty code (Title XII) \\
-\centerline{\url{https://sites.auburn.edu/admin/universitypolicies/Policies/AcademicHonestyCode.pdf}} \\
-will apply to this class. All academic honesty violations or alleged violations of the SGA Code of Laws will be reported to the Office of the Provost, which will then refer the case to the Academic Honesty Committee. \textbf{Tiger Cards may be checked before any assignment is accepted.}
+All portions of the Auburn University student academic honesty code (Title XII)\\
+\centerline{\url{https://sites.auburn.edu/admin/universitypolicies/Policies/AcademicHonestyCode.pdf}}\\
+will apply to this class. All academic honesty violations or alleged violations
+of the SGA Code of Laws will be reported to the Office of the Provost, which
+will then refer the case to the Academic Honesty Committee. \textbf{Tiger Cards
+may be checked before any assignment is accepted.}
 }
 
 % Contingency Plan
-  % The default setting allows you to change this syllabus as needed 
-  % (for example, giving one less exam due to time constraints), 
+  % The default message allows you to change this syllabus as needed
+  % (for example, giving one less exam due to time constraints),
   % but you should present the changed policy in writing to your class.
 \newcommand{\ContPlan}{
-If normal class and/or lab activities are disrupted due to illness, emergency, or crisis situation, the syllabus and other course plans and assignments may be modified to allow completion of the course. If this occurs, an addendum to your syllabus and/or course assignments will replace the original materials.
+If normal class and/or lab activities are disrupted due to illness, emergency,
+or crisis situation, the syllabus and other course plans and assignments may be
+modified to allow completion of the course. If this occurs, an addendum to your
+syllabus and/or course assignments will replace the original materials.
 }
 
 
@@ -154,26 +180,46 @@ If normal class and/or lab activities are disrupted due to illness, emergency, o
 %%%%%%%%%%%%%%%%%%%%%
 
 % Extra Sections
-  % You can optionally add as many extra sections as you wish by editing the \ExtraSections variable. 
+  % You can optionally add as many extra sections as you wish by editing the
+  % \ExtraSections variable.
   % Set the variable as empty to remove these sections.
 \newcommand{\ExtraSections}{
 \textbf{Calculators:} \\
-A basic scientific calculator will be allowed on all tests and homework.  A cell phone app cannot be used 
+A basic scientific calculator will be allowed on all tests and homework.
+A cell phone app cannot be used
 as a calculator.  Graphing calculators are not permitted.
 
 \textbf{Canvas:}\\
-Much of the content for this course, as well as all grades, will be posted online to the Canvas learning management system. Access Canvas by visiting \\
+Much of the content for this course, as well as all grades, will be posted
+online to the Canvas learning management system. Access Canvas by visiting \\
 \centerline{\url{http://auburn.instructure.com/}}
 
 \textbf{Early Alert Grade:}\\
-You will receive an Early Alert Grade one week prior to mid semester (31st class day).  The Early Alert Grade represents your current performance on class work graded at that point in the semester.  Check the grading scale for this course so that you are aware of what percentage of the total points is represented by your Early Alert Grade.  If your Early Alert Grade is a D, F, or FA you will receive an email from the Retention Coordinator. Early Alert Grades can be viewed by logging into AU Access and opening the Tiger I tab.  Select Student Records and open the Midterm Grades window from the drop down box. If the grade seems inaccurate, please contact the instructor.
+You will receive an Early Alert Grade one week prior to mid semester
+(31st class day).  The Early Alert Grade represents your current performance on
+class work graded at that point in the semester.  Check the grading scale for
+this course so that you are aware of what percentage of the total points is
+represented by your Early Alert Grade.  If your Early Alert Grade is a
+D, F, or FA you will receive an email from the Retention Coordinator. Early
+Alert Grades can be viewed by logging into AU Access and opening the Tiger I
+tab.  Select Student Records and open the Midterm Grades window from the drop
+down box. If the grade seems inaccurate, please contact the instructor.
 }
 
 % PostScript
-  % You can optionally add a final comment at the end of the syllabus to drive home an important point.
-  % Set \PostScript as empty to remove this final comment
+  % You can optionally add a final comment at the end of the syllabus to
+  % drive home an important point.
+  % Set \PostScript as empty to remove this final comment.
+  %
+  % Automatically includes this text before your \PostScript messages:
+  %%%
+  % Please refer to the Student Policy eHandbook
+  % http://www.auburn.edu/student_info/student_policies/
+  % for more information - for example, what
+  % to do if you have three or more finals scheduled on one day.
 \newcommand{\PostScript}{
-\textbf{ELECTRONIC DEVICES ARE NOT ALLOWED IN CLASS UNLESS GIVEN EXPLICIT PERMISSION BY THE INSTRUCTOR.}
+\textbf{ELECTRONIC DEVICES ARE NOT ALLOWED IN CLASS UNLESS GIVEN EXPLICIT
+PERMISSION BY THE INSTRUCTOR.}
 
 How to update this document: Full instructions are available at \\
 \url{https://github.com/StevenClontz/auburn-math-syllabus} \\
