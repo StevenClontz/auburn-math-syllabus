@@ -15,15 +15,15 @@
 % Title stuff
   % Course Code, ex: MATH 1000-080
 \newcommand{\CourseCode}{
-MATH 1620-090/101
+MATH 2630-100/120
 }
   % Course Name
 \newcommand{\CourseName}{
-Calculus II
+Calculus III
 }
   % Semester
 \newcommand{\Semester}{
-Fall 2014
+Spring 2015
 }
 
 % Instructor data
@@ -37,7 +37,7 @@ Parker 140F
 }
   % Your office hours
 \newcommand{\OffHours}{
-To be announced
+To be scheduled
 }
   % Your office phone number
 \newcommand{\OffPhone}{
@@ -51,23 +51,23 @@ steven.clontz@auburn.edu
 % Course data
   % Classroom location
 \newcommand{\ClassLoc}{
-Parker 318\&356 / Parker 354\&362
+Parker 326 / Parker 362
 }
   % Lecture times (line 1)
 \newcommand{\ClassTimeOne}{
-MWF 0900-0950 / MWF 1000-1050
+MWF 1000-1050 / 1200-1250
 }
   % Lecture times (line 2)
 \newcommand{\ClassTimeTwo}{
-T 0930-1020 / R 0930-1020
+R 0930-1020 / 1100-1150
 }
   % Final exam time (line 1)
 \newcommand{\FinalExamOne}{
-Thu 2014-12-11 1900-2130
+Wed 2015-05-06 0800-1030 /
 }
   % Final exam time (line 2)
 \newcommand{\FinalExamTwo}{
-(Uniform Final)
+Tues 2015-05-05 1200-1430
 }
   % Number of credit hours
 \newcommand{\CreditHrs}{
@@ -75,7 +75,7 @@ Thu 2014-12-11 1900-2130
 }
   % Textbook to be used
 \newcommand{\Text}{
-Calculus, Early Tr. (Stewart, 7th ed)
+Instructor's notes
 }
 
 % Course Description
@@ -83,9 +83,8 @@ Calculus, Early Tr. (Stewart, 7th ed)
   %%%
   % (See also: http://bulletin.auburn.edu/coursesofinstruction/math/)
 \newcommand{\CourseDesc}{
-Topic covered include: techniques of integration, applications of the integral,
-parametric equations, vectors, lines and planes in space, infinite sequences
-and series.
+Multivariate calculus topics covered include: vector-valued functions,
+partial derivatives, multiple integration, vector calculus.
 }
 
 % Grade Description
@@ -94,22 +93,26 @@ and series.
   % instructors set own grading schema with approval by course coordinator.
   % Contact your course coordinator with any questions.
 \newcommand{\GradeDesc}{
-Your grade for this course is divided into three groups.
-\textbf{Participation} is based upon attendance and in-class presentations.
-\textbf{Quizzes} will be given on Mondays as a review of the material covered.
-Exams include one \textbf{Midterm} and one uniform \textbf{Final}.
-More details on these grades will be given in class and posted to Canvas.
+Grades for each student in this course are out of 1000 points, with letter
+grades assigned as displayed on the chart below.
+Up to 500 points may be earned through both group and individual work
+throughout the semester. An individual final exam will be held at the end
+of the semester which is worth 1000 points minus whatever has already been
+earned.
 }
 
 % Grade Distribution
   % Table partitioning credit for each assignment
 \newcommand{\GradeDist}{
 \begin{tabular}{|l|l|}\hline
-Participation & 300 \\
-Quizzes & 200 \\
-Midterm & 100 \\
-Final & 200 \\\hline\hline
-Total & 800 \\\hline
+Diagonstic Exam* & 50 \\
+Attendance & 50 \\
+Packet/Test 1 & 100 \\
+Packet/Test 2 & 100 \\
+Packet/Test 3 & 100 \\
+Packet/Test 4 & 100 \\
+Final & 1000 - (pts earned) \\\hline\hline
+Total & 1000 \\\hline
 \end{tabular}
 }
 
@@ -118,11 +121,11 @@ Total & 800 \\\hline
 \newcommand{\LetterAssign}{
 \begin{tabular}{|c|c|c|}\hline
 \bf{Grade} & \bf{Points} & \bf{Percentage}\\\hline\hline
-A & 720-800 & 90\% - 100\%\\
-B & 640-719 & 80\% - 89\%\\
-C & 560-639 & 70\% - 79\%\\
-D & 480-559 & 60\% - 69\%\\
-F & 0-479 & 0\% - 59\%\\\hline
+A & 900-1000 & 90\% - 100\%\\
+B & 800-899 & 80\% - 89\%\\
+C & 700-799 & 70\% - 79\%\\
+D & 650-699 & 65\% - 69\%\\
+F & 0-649 & 0\% - 64\%\\\hline
 \end{tabular}
 }
 
@@ -138,7 +141,8 @@ F & 0-479 & 0\% - 59\%\\\hline
 \newcommand{\MakeUp}{
 Arrangements to make up missed exams due to excused absences must be
 initiated by the student within one week from the end of the excused absence.
-Excused quizzes will be given the a grade equal to the next quiz grade earned.
+Group work may not be able to be made up, in which case it will be replaced with
+comparable individual work.
 }
 
 % ADA Policy
@@ -184,14 +188,77 @@ syllabus and/or course assignments will replace the original materials.
   % \ExtraSections variable.
   % Set the variable as empty to remove these sections.
 \newcommand{\ExtraSections}{
-\textbf{Calculators:} \\
-Quizzes and Exams are written so that a calculator is not required
-(or allowed).
+\textbf{Diagnostic Exam:} \\
+The diagnostic exam will be written by stripping away Calculus III material
+from a Calculus III final exam, leaving material from Precalculus (including
+trigonometry) and Calculus I and II.
+Students making below a 70\% will be given two opportunities to retake
+a similar exam twice before midsemester (for a maximum
+of 70\% credit). \textbf{*Since knowledge of this material
+is critical for success in Calculus III,
+a score of 70\% or higher on the diagnostic exam is required to
+pass this course; all students with a score below 70\% will automatically
+receive an F for the course.}
 
-\textbf{Canvas:}\\
+\textbf{Open Everything Policy:} \\
+Textbooks, the internet, calculators, etc. are allowed to be used during
+class time and all assessments (except for the diagnostic exam).
+Two caveats: no ``live'' communications with other people are allowed,
+and you must show all work supporting material introduced in Calculus III to
+receive credit.
+
+\textbf{Study Groups:} \\
+Each class will be divided into several Study Groups. Each study group will
+work together on the course material, with some grades shared between
+all members of each particular group (see below). In addition, each study
+group is responsible for organizing a 60-minute Study Session outside of
+regular class time. The instructor will join for roughly 30 minutes of this
+session each week to function as office hours. Study Groups and Study Sessions
+will be coordinated by the instructor with the input of the class, and
+may change over the course of the semester.
+
+\textbf{Attendance:} \\
+Attendance is calculated as 50 points. One point is subtracted for each
+unexcused absence, including absences from Study Sessions.
+
+\textbf{Test/Packet Grades:}
+The Test/Packet grades total to 100 points each. This grade is split into
+four categories: Packet (20), Individual Test (30),
+Group Test (30), and Teamwork (20).
+
+\textbf{Packets:} \\
+In lieu of a textbook, four packets of definitions, theorems, examples,
+and problems will be provided. Each Study Group is responsible for typesetting
+solutions to the given problems in \LaTeX{} to turn in before the corresponding
+test. Some problems will be fully graded with partial credit, but others will
+just be checked for completion.
+
+\textbf{Individual Test:} \\
+Each test begins with a 40 minute individual portion. All students will work
+individually to complete their test, showing full work. All questions will be
+fully graded with partial credit.
+
+\newpage
+
+\textbf{Group Test:} \\
+Immediately following the individual test, an identical test will be given
+for another 40 minutes, but members of each Study Group may now collaborate
+with each other. However, solutions must still be written individually and
+turned in separately.
+
+\textbf{Teamwork:} \\
+The instructor will assign each student credit for teamwork demonstrated since
+the previous test, based on his best judgement.
+
+\textbf{Final Exam:} \\
+The Final Exam will be based on material from the four Tests/Packets. It will
+be similar in structure to the previous Tests; however, there will not be
+a group portion.
+
+\textbf{Online materials:}\\
 Much of the content for this course, as well as all grades, will be posted
-online to the Canvas learning management system. Access Canvas by visiting \\
-\centerline{\url{http://auburn.instructure.com/}}
+online, either to Canvas or via a link from Canvas. To access Canvas, visit
+\url{http://auburn.instructure.com/}.
 }
 
 
